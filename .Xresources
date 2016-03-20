@@ -25,3 +25,6 @@ URxvt.copyCommand:	xsel -ib
 URxvt.pasteCommand:	xsel -ob
 URxvt.clipboard.autocopy:true
 
+! COLORS
+URxvt.foreground: white
+URxvt.background: black

@@ -88,3 +88,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias Uworld="sudo emerge -av --update --newuse --deep @world"
+alias ..="cd .."
+alias cdP="cd /etc/portage/ && sudo su"
+alias eZ="vim ~/.zshrc"
+alias eX="vim ~/.Xresources"
+alias e3="vim ~/.i3/config"
+alias gs="git status"
+alias gp="git push -u origin master"
