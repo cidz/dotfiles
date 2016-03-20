@@ -1,0 +1,25 @@
+
+! Disable the scrollbar
+URxvt.scrollstyle:	rxvt
+URxvt.scrollBar:	false
+
+! FONTS
+Xft*dpi:		96
+Xft*antialias:		true
+Xft*hinting:		full
+URxvt.font:		xft:Inconsolata:size=10
+
+! PERLS
+URxvt.perl-ext-common:	default,clipboard,matcher,keyboard-select
+URxvt.keysm.M-u:	perl:url-select:select_next
+URxvt.url-launcher:	/usr/bin/firefox
+URxvt.underlineURLs:	true
+URxvt.matcher.button:	1
+URxvt.keysym.M-Escape:	perl:keyboard-select:activate
+URxvt.keysym.M-c:	perl:clipboard:copy
+URxvt.keysym.M-v:	perl:clipboard:paste
+URxvt.keysym.M-C-v:	perl:clipboard:paste_escaped
+URxvt.copyCommand:	xsel -ib
+URxvt.pasteCommand:	xsel -ob
+URxvt.clipboard.autocopy:true
+
