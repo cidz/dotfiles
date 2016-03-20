@@ -7,7 +7,9 @@ URxvt.scrollBar:	false
 Xft*dpi:		96
 Xft*antialias:		true
 Xft*hinting:		full
-URxvt.font:		xft:Inconsolata:size=10
+URxvt.font:		xft:PragmataPro:size=12:antialias:true:hinting:full
+URxvt.Boldfont:		xft:PragmataPro-Bold:bold:size=12:antialias:true:hinting:full
+URxvt.letterSpace: 	-1
 
 ! PERLS
 URxvt.perl-ext-common:	default,clipboard,matcher,keyboard-select
