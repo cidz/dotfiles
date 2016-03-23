@@ -32,14 +32,15 @@
 # General Configuration
   font pango:System San Francisco Display 12
   floating_modifier $mod
-  # hide_edge_borders both
+  hide_edge_borders both
   new_window none
-  # smart_borders on
-  # gaps inner 0
-  # gaps outer 0
+  smart_borders on
+  gaps inner 5
+  gaps outer 5
+  smart_gaps on
 
 # exec
-exec_always --nostartup-id feh --bg-scale /home/max/Bilder/wallpaper.jpg
+exec_always feh --bg-scale /home/max/Bilder/wallpaper.jpg
 
 
 # Window-Related Bindings
@@ -54,7 +55,8 @@ exec_always --nostartup-id feh --bg-scale /home/max/Bilder/wallpaper.jpg
   bindsym $mod+Shift+l move right
   bindsym $mod+Shift+space floating toggle
   bindsym $mod+f fullscreen toggl
-  bindsym $mod+v layout toggle split
+  #bindsym $mod+v layout toggle split
+  bindsym $mod+v split v
   #bindsym $mod+h split h
   bindsym $mod+space focus mode_toggle
   bindsym $mod+r mode "  "
