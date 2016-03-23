@@ -3,6 +3,7 @@ compinit
 promptinit; prompt gentoo
 zstyle ':completion::complete:*' use-cache 1
 
+export TERM=xterm-256color
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/max/.oh-my-zsh
@@ -97,7 +98,10 @@ alias cdP="cd /etc/portage/ && sudo su"
 alias eZ="vim ~/.zshrc"
 alias eX="vim ~/.Xresources"
 alias e3="vim ~/.i3/config"
+alias eV="vim ~/.vimrc"
 alias gs="git status"
 alias gp="git push -u origin master"
 alias I="sudo emerge -av"
 alias ls="ls --color=auto"
+alias Z="source ~/.zshrc"
+alias k="exit"

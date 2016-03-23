@@ -11,7 +11,7 @@ filetype plugin indent on
 
 " AIRLINE
 let g:airline_powerline_fonts = 1
-let g:airline_theme='powerlineish'
+let g:airline_theme='simple'
 
 " GLOBAL
 set laststatus=2
@@ -19,4 +19,6 @@ set relativenumber
 set number
 syntax enable
 set encoding=utf8
-set t_Co=256
+if !has('gui_running')
+  set t_Co=256
+endif
