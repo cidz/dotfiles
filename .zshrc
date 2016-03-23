@@ -11,7 +11,10 @@ zstyle ':completion::complete:*' use-cache 1
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="random"
+
+
+POWERLINE_PATH="short"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -97,3 +100,4 @@ alias e3="vim ~/.i3/config"
 alias gs="git status"
 alias gp="git push -u origin master"
 alias I="sudo emerge -av"
+alias ls="ls --color=auto"
