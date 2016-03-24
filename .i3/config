@@ -140,7 +140,7 @@ exec_always feh --bg-scale /home/max/Bilder/wallpaper.jpg
 # Bar
   bar {
     font pango: System San Francisco Display, FontAwesome 16
-    status_command i3status
+    status_command i3blocks
     position bottom
     # strip_workspace_numbers yes
     # height 25
