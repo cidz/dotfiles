@@ -12,7 +12,7 @@ export TERM=xterm-256color
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="random"
+ZSH_THEME="powerline"
 
 
 POWERLINE_PATH="short"
@@ -92,21 +92,28 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Gentoo
 alias Uworld="sudo emerge -av --update --newuse --deep @world"
 alias Uworld-bdeps="sudo emerge -av --update --deep --newuse --with-bdeps=y @world"
 alias F="sudo tail -f /var/log/emerge-fetch.log"
 alias E="sudo tail -f /var/log/emerge.log"
-alias ..="cd .."
+alias es="sudo emerge --sync"
 alias cdP="cd /etc/portage/ && sudo su"
 alias cdU="cd /etc/portage/package.use/ && sudo su"
 alias cdK="cd /etc/portage/package.keywords/ && sudo su"
+alias I="sudo emerge -av"
+
+# other
+alias ..="cd .."
 alias eZ="vim ~/.zshrc"
 alias eX="vim ~/.Xresources"
 alias e3="vim ~/.i3/config"
 alias eV="vim ~/.vimrc"
-alias gs="git status"
-alias gp="git push -u origin master"
-alias I="sudo emerge -av"
 alias ls="ls --color=auto"
 alias Z="clear &&  source ~/.zshrc"
 alias k="exit"
+
+# git
+alias gs="git status"
+alias gp="git push -u origin master"

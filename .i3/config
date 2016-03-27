@@ -41,7 +41,7 @@
 
 # exec
 exec_always feh --bg-scale /home/max/Bilder/wallpaper.jpg
-
+exec --no-startup-id firefox
 
 # Window-Related Bindings
   bindsym $mod+Shift+q kill

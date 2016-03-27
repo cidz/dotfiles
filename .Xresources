@@ -9,8 +9,8 @@ Xft*antialias:		true
 Xft*hinting:		full
 !URxvt.font:		xft:PragmataPro:size=12:antialias:true:hinting:full
 !URxvt.Boldfont:	xft:PragmataPro-Bold:bold:size=12:antialias:true:hinting:full
-URxvt.font:		xft:Dejavu Sans Mono for Powerline:size=12:antialias:true:hinting:full
-URxvt.Boldfont:		xft:Dejavu Sans Mono for Powerline:bold:size=12:antialias:true:hinting:full
+URxvt.font:		xft:Dejavu Sans Mono for Powerline:size=11:antialias:true:hinting:full
+URxvt.Boldfont:		xft:Dejavu Sans Mono for Powerline:bold:size=11:antialias:true:hinting:full
 URxvt.letterSpace: 	-1
 
 ! PERLS
@@ -28,8 +28,9 @@ URxvt.pasteCommand:	xsel -ob
 URxvt.clipboard.autocopy:true
 
 ! COLORS
-URxvt*background: #000000
-URxvt*foreground: #B2B2B2
+URxvt*background: #2E2E2E
+URxvt*foreground: #FFFFFF
+!URxvt*foreground: #B2B2B2
 
 ! black
  *color0:  #2E3436
