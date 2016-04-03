@@ -129,7 +129,7 @@ exec --no-startup-id firefox
   for_window [class="Lxappearance"] floating enable
   for_window [class="Seahorse"] floating enable
   for_window [class="Pavucontrol"] floating enable
-
+  for_window [class="Blender"] floating enable
 # Widow Colours
 #                         border  background text    indicator
   client.focused          $base01 $base01    $base07 $base0F
