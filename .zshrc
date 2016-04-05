@@ -103,6 +103,7 @@ alias cdP="cd /etc/portage/ && sudo su"
 alias cdU="cd /etc/portage/package.use/ && sudo su"
 alias cdK="cd /etc/portage/package.keywords/ && sudo su"
 alias I="sudo emerge -av"
+alias eu="sudo eix-update"
 
 # other
 alias ..="cd .."
