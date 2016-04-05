@@ -114,6 +114,7 @@ alias eV="vim ~/.vimrc"
 alias ls="ls --color=auto"
 alias Z="clear &&  source ~/.zshrc"
 alias k="exit"
+alias e="vim"
 
 # git
 alias gs="git status"
