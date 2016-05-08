@@ -104,6 +104,7 @@ alias cdU="cd /etc/portage/package.use/ && sudo su"
 alias cdK="cd /etc/portage/package.keywords/ && sudo su"
 alias I="sudo emerge -av"
 alias eu="sudo eix-update"
+alias grub-install="grub2-install --target=x86_64-efi --efi-directory=/boot"
 
 # other
 alias ..="cd .."
