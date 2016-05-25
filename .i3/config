@@ -140,7 +140,7 @@ exec --no-startup-id firefox
 # Bar
   bar {
     font pango: System San Francisco Display, FontAwesome 16
-    status_command i3blocks
+    status_command i3blocks -c ~/.i3/i3blocks.conf
     position bottom
     # strip_workspace_numbers yes
     # height 25

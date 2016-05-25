@@ -13,3 +13,5 @@ xset r rate 200 25
 #start i3
 exec i3
 
+#start herbstluft
+#exec herbstluftwm --locked

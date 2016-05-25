@@ -29,17 +29,18 @@ URxvt.clipboard.autocopy:true
 
 ! COLORS
 URxvt*background: #2E2E2E
-URxvt*foreground: #FFFFFF
-!URxvt*foreground: #B2B2B2
+!URxvt*foreground: #FFFFFF
+URxvt*foreground: #B2B2B2
+
 URxvt*fading: 10
 
-! black
+!! black
  *color0:  #2E3436
  *color8:  #555753
-! red
+!! red
   *color1:  #a40000
   *color9:  #EF2929
-! green
+!! green
   *color2:  #4E9A06
   *color10: #8AE234
 ! yellow
